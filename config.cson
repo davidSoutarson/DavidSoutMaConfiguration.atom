@@ -1,8 +1,5 @@
 "*":
   core:
-    disabledPackages: [
-      "spell-check"
-    ]
     telemetryConsent: "limited"
     uriHandlerRegistration: "never"
   editor:
@@ -11,6 +8,8 @@
   "exception-reporting":
     userId: "92020d48-dbb4-4391-99ce-41107c5cf11e"
   github: {}
+  "linter-ui-default":
+    showPanel: true
   minimap:
     adjustAbsoluteModeHeight: true
     plugins:
@@ -18,5 +17,7 @@
       "lens-modeDecorationsZIndex": 0
       linter: true
       linterDecorationsZIndex: 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
   "tree-view":
     hideVcsIgnoredFiles: true
