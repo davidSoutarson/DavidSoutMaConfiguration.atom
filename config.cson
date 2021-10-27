@@ -1,0 +1,22 @@
+"*":
+  core:
+    disabledPackages: [
+      "spell-check"
+    ]
+    telemetryConsent: "limited"
+    uriHandlerRegistration: "never"
+  editor:
+    fontSize: 16
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "92020d48-dbb4-4391-99ce-41107c5cf11e"
+  github: {}
+  minimap:
+    adjustAbsoluteModeHeight: true
+    plugins:
+      "lens-mode": true
+      "lens-modeDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+  "tree-view":
+    hideVcsIgnoredFiles: true
