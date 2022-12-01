@@ -1,9 +1,18 @@
+## [4.40.1](https://github.com/atom-minimap/minimap/compare/v4.40.0...v4.40.1) (2022-03-14)
+
+
+### Bug Fixes
+
+* update deps ([a3de139](https://github.com/atom-minimap/minimap/commit/a3de139d98f788be14e8d922829c80bc5eff5e03))
+* use customElement.define ([3f9f1a5](https://github.com/atom-minimap/minimap/commit/3f9f1a537bb18aaf0b917205fe343fb14e8aec7c))
+
 ## [4.40.0](https://github.com/atom-minimap/minimap/compare/v4.39.14...v4.40.0) (2021-07-13)
 
 ### Bug fixes and Improvements
 
-- getDevicePixelRatio will return 0 on Linux resulting in no minimap (#799)
-- remove LegacyAdapter - Drop support for Atom versions older than 1.52. (#798)
+- getDevicePixelRatio will return 0 on Linux resulting in no minimap (#799 and #795)
+- Require Electron 6 - Drop support for Atom versions older than 1.52. (#798)
+- remove the deprecated LegacyAdapter (#798)
 - use StyleReader from atom-ide-base (#798)
 - improve debounce function (#798)
 - update dependencies

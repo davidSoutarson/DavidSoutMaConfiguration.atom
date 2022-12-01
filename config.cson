@@ -1,16 +1,32 @@
 "*":
   core:
+    disabledPackages: [
+      "linter"
+      "linter-ui-default"
+      "teletype"
+      "atom-ide-ui"
+      "busy-signal"
+      "ide-php"
+      "tester"
+    ]
+    packagesWithKeymapsDisabled: [
+      "spell-check"
+    ]
     telemetryConsent: "limited"
     uriHandlerRegistration: "never"
   editor:
-    fontSize: 16
+    fontSize: 12
     showIndentGuide: true
   "exception-reporting":
     userId: "92020d48-dbb4-4391-99ce-41107c5cf11e"
   github: {}
-  "linter-ui-default":
-    showPanel: true
+  "ide-php":
+    phpPath: "e:\\wamp64\\bin\\php\\php7.4.26\\php.exe‬"
+  "linter-jshint":
+    lintInlineJavaScript: true
+  "linter-ui-default": {}
   minimap:
+    absoluteMode: true
     adjustAbsoluteModeHeight: true
     plugins:
       "lens-mode": true
@@ -19,5 +35,6 @@
       linterDecorationsZIndex: 0
       pigments: true
       pigmentsDecorationsZIndex: 0
+  "tester-phpunit": {}
   "tree-view":
     hideVcsIgnoredFiles: true
