@@ -15,7 +15,6 @@
     telemetryConsent: "limited"
     uriHandlerRegistration: "never"
   editor:
-    fontSize: 12
     showIndentGuide: true
   "exception-reporting":
     userId: "92020d48-dbb4-4391-99ce-41107c5cf11e"
